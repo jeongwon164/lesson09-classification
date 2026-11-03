@@ -200,7 +200,7 @@ fig.add_trace(
         x=np.linspace(x_min_plot, x_max_plot, 100),
         y=np.linspace(y_min_plot, y_max_plot, 100),
         showscale=False,
-        colorscale=[[0, 'rgba(31, 119, 180, 0.1)'], [1, 'rgba(255, 75, 75, 0.1)]'],
+        colorscale=[[0, 'rgba(31, 119, 180, 0.1)'], [1, 'rgba(255, 75, 75, 0.1)']],
         hoverinfo='skip',
         name='의사결정트리 영역'
     )
